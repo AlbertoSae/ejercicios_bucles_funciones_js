@@ -20,7 +20,7 @@ const starWarsMovies = [
     //calcular decada
     const decade = Math.floor(starWarsMovie.releaseYear / 10) * 10;
 
-  // Si no existe la clave de la década en el objeto, inicialízala como un array vacío
+  // no existe la clave de la década en el objeto, se inicializa como un array vacío
   if (!starWarsMoviesByDecades[decade]) {
     starWarsMoviesByDecades[decade] = [];
   }
